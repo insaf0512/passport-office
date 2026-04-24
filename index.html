@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Digital Passport Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+</head>
+<body>
 
+    <div id="app">
+        <div id="canvas-container">
+            <div id="passport-book" class="flip-book">
+                </div>
+        </div>
+        <div id="error-message" style="display: none;">
+            <h1>403 - Access Denied</h1>
+            <p>Official document ID required for access.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
