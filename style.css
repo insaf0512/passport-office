@@ -1,1 +1,33 @@
+body {
+    background-color: #1a1a1a; /* Dark background like a desk */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+    /* Prevent text selection to help "secure" document info */
+    user-select: none;
+    -webkit-user-select: none;
+}
 
+.flip-book {
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    background-color: #333;
+}
+
+.page {
+    background-color: white;
+    overflow: hidden;
+}
+
+.page-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#error-message {
+    text-align: center;
+}
